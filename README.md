@@ -17,3 +17,6 @@ $ cd 프로젝트폴더
 $ npm start
 ```
 - http://localhost:3000 에서 프론트엔드 서버 실행
+
+## git clone 주의사항
+- `$ npm install` 명령을 터미널에서 실행하여 라이브러리 먼저 설치 (최초 1회)
