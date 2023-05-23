@@ -4,6 +4,9 @@ import SayHello from "./SayHello";
 import ClickEvent from "./component/chap01_event/ClickEvent";
 import ChangeEvent from "./component/chap01_event/ChangeEvent";
 import SubmitEvent from "./component/chap01_event/SubmitEvent";
+import FoodList from "./component/chap02_props/FoodList";
+import NickName from "./component/chap03_state/NickName";
+import Counter from "./component/chap03_state/Counter";
 
 function App() {
 
@@ -30,8 +33,18 @@ function App() {
             {/*{looping()}*/}
            {/*{ClickEvent()}*/}
            {/* <ChangeEvent />*/}
-            <SubmitEvent />
+           {/* <SubmitEvent />*/}
+           {/* <FoodList />*/}
+           {/* <NickName />*/}
+            <Counter />
         </>
+
+    );
+}
+
+export default App;
+
+
 //    <div className="App">
 //    <header className="App-header">
 //      <img src={logo} className="App-logo" alt="logo" />
@@ -48,7 +61,3 @@ function App() {
 //      </a>
 //    </header>
 //  </div>
-    );
-}
-
-export default App;
