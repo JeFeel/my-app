@@ -2,7 +2,9 @@ import React from 'react';
 
 const SubmitEvent = () => {
     const send = e =>{
-        e.preventDefault(); //submit 기능 중지
+        //submit 기능 중지
+        //값을 보낼때 페이지가 새로고침되는걸 방지
+        e.preventDefault();
 
         const $nick = document.getElementById('nickName');
         console.log($nick.value);
