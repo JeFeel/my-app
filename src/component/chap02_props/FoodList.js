@@ -46,7 +46,10 @@ const FoodList = () => {
             </SayHello>
             {
                 foods.foodList.map(f=>
-                    <FoodItem foodName={f.fName} price={f.price} foodId={f.id}/>)
+                    //foodList의 음식객체 하나가 f
+                    //날씨나 지도api도 이런 식으로 불러오기?
+                    <FoodItem foodName={f.fName} price={f.price} foodId={f.id}/>
+                )
             }
 
             {/*원래 '짜장면'에도 중괄호를 붙여야 함, 문자열은 중괄호 생략 가능*/}
